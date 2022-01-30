@@ -1,0 +1,31 @@
+.user{
+  font-family: sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 2.5rem;
+  box-shadow: 0px 10px 10px gray;
+  &__row{
+    margin-top: 1rem;
+    width: 100%;
+  }
+  &__title{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+  }
+  &__param{
+    color: gray;
+    width: 20%;
+    font-size: 24px;
+    display: inline-block;
+  }
+  &__value{
+    font-size: 24px;
+    display: inline-block;
+  }
+}
